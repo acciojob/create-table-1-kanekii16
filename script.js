@@ -7,7 +7,7 @@ function insert_Row() {
 	td1.innerText = "New Cell1"
 	const td2 = document.createElement("td");
 	td2.innerText = "New Cell2";
-
+ 
 	element.append(td1,td2);
 
 	const table = document.getElementById("sampleTable");
